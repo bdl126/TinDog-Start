@@ -1,0 +1,39 @@
+.z-ax {
+  height: 100px;
+  width:100px;
+  border: 1px solid;
+  position: absolute;
+}
+
+.red {
+  background-color: red;
+  left:1px;
+  top:1px;
+
+}
+
+.yellow {
+  background-color: yellow;
+  left:20px;
+  top:20px;
+}
+
+.blue {
+  background-color: blue;
+  left:40px;
+  top:40px;
+
+}
+.media-class {
+  font-size: 30px;
+}
+
+
+/* max witdh veux dire que l'action est prise lorsque la taile est obtenue */
+/* donc plus petite que 900px */
+@media (min-width: 900px) and (max-width: 1000px) {
+  .media-class{
+    color: red;
+    font-size: 60px;
+  }
+}
